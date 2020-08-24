@@ -6,6 +6,8 @@ WORKDIR /app
 COPY hello_world.lua /app
 COPY app.lua /app
 COPY maths.lua /app
+COPY conditionals.lua /app
+COPY loops.lua /app
 WORKDIR /
 COPY entrypoint.sh .
 
